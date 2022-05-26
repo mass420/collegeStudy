@@ -1,0 +1,48 @@
+
+h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: black;
+}
+.botton{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #09CBD1;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.botton:hover{
+    border: 1px solid #67EB1C;
+    background: gray;
+    transition: 2s;
+}
+.botton:hover::after{
+    width: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    position: relative;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+}
+a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: yellowgreen;
+    display: block;
+    margin: auto;
+    transition: 2s;
+}
+a:hover::after{
+    width: auto;
+}
