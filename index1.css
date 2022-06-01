@@ -56,6 +56,8 @@ p{
 }
 table{
     border-collapse: collapse;
+    height: 400px;
+    width: auto;
 }
 table th{
     text-align: left;
