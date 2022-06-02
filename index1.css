@@ -72,6 +72,9 @@ table td{
 table tr:nth-child(odd) td{
     background-color: #e7edf0;
 }
+img{
+    width: 300px;
+}
 @media(max-width:700px){
     h1{
         font-size: 22px;
